@@ -6,7 +6,7 @@
 
 Faça o clone do repositório:
 
-`git clone https://github.com/reno/projeto_eng_software.git`
+`git clone https://github.com/reno/django_rest_api.git`
 
 Crie um ambiente virtual:
 
