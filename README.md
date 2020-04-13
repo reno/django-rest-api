@@ -1,5 +1,28 @@
 # Django REST API 
 
+## Estrutura da aplicação
+
+O projeto é organizado conforme abaixo:
+
+```
+/django_rest_api/scrum/
+├── manage.py
+├── scrum/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── board/
+│   ├── migrations/
+│   │   └── __init__.py
+│   ├── __init__.py
+│   ├── admin.py
+│   ├── models.py
+│   ├── tests.py
+├── └── views.py
+└── requirements.txt
+```
+
 ## Uso
 
 **1. Configuração do ambiente virtual**
