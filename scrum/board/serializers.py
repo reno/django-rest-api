@@ -26,7 +26,7 @@ class SprintSerializer(serializers.ModelSerializer):
 class TaskSerializer(serializers.ModelSerializer):
 
     assigned = serializers.SlugRelatedField(slug_field=User.USERNAME_FIELD,
-                                            required=False)
+                                            required=False, read_only=True)
     status_display = serializers.SerializerMethodField('get_status_display')
     links = serializers.SerializerMethodField('get_links')
 
