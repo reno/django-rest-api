@@ -52,5 +52,9 @@ Inicialize o servidor de desenvolvimento:
 
 `python manage.py runserver`
 
-Finalmente, acesse `http://127.0.0.1:8000/api/` para navegar pela API.
+Finalmente, acesse o servidor para navegar pela API:
+
+`http://127.0.0.1:8000/api/`
+
+
 
