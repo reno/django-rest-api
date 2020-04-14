@@ -29,12 +29,13 @@ class Task(models.Model):
 
     name = models.CharField(max_length=100)
     description = models.TextField(blank=True, default='')
-    sprint = models.ForeignKey(Sprint, blank=True, null=True)
+    sprint = models.ForeignKey(Sprint, blank=True, null=True,
+                               on_delete=models.CASCADE)
     status = models.SmallIntegerField(choices=STATUS_CHOICES,
                                       default=STATUS_TODO)
     order = models.SmallIntegerField(default=0)
     assigned = models.ForeignKey(settings.AUTH_USER_MODEL, null=True,
-                                 blank=True)
+                                 blank=True, on_delete=models.CASCADE)
     started = models.DateField(blank=True, null=True)
     due = models.DateField(blank=True, null=True)
     completed = models.DateField(blank=True, null=True)
