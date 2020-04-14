@@ -14,6 +14,7 @@ O projeto é organizado conforme abaixo:
 │   ├── migrations
 │   │   └── __init__.py
 │   ├── models.py
+│   ├── serializers.py
 │   ├── tests.py
 │   └── views.py
 ├── manage.py
@@ -26,8 +27,6 @@ O projeto é organizado conforme abaixo:
 ```
 
 ## Uso
-
-**1. Configuração do ambiente virtual**
 
 Faça o clone do repositório:
 
@@ -44,3 +43,18 @@ Ative o ambiente virtual:
 Instale as dependências no ambiente virtual:
 
 `pip install -r requirements.txt`
+
+Inicialize o banco de dados:
+
+`createdb -E UTF-8 scrum`
+
+Inicialize o servidor de desenvolvimento:
+
+`python manage.py runserver`
+
+Finalmente, acesse o servidor para navegar pela API:
+
+`http://127.0.0.1:8000/api/`
+
+
+
