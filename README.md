@@ -11,11 +11,13 @@ O projeto é organizado conforme abaixo:
 │   ├── __init__.py
 │   ├── admin.py
 │   ├── apps.py
+│   ├── forms.py
 │   ├── migrations
 │   │   └── __init__.py
 │   ├── models.py
 │   ├── serializers.py
 │   ├── tests.py
+│   ├── urls.py
 │   └── views.py
 ├── manage.py
 ├── scrum
