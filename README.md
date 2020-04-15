@@ -1,5 +1,7 @@
 # Django REST API 
 
+Uma API REST utilizando o Django REST Framework. Baseada no livro *Lightweight Django*.
+
 ## Estrutura da aplicação
 
 O projeto é organizado conforme abaixo:
